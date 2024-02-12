@@ -4,7 +4,6 @@ import pkg from "../../package.json";
 
 const useEditorOptions = (props: MailUiEditorProps, editorId: string) => {
     return useMemo(() => {
-        console.log('useEditorOptions')
         const options: MailUiEditorProps['options'] = {
             ...(props.options || {}),
             appearance: props.options?.appearance,

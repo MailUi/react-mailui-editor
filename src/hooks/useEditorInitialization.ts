@@ -6,9 +6,7 @@ const useEditorInitialization = (editor: MailUiEditorClass | null, setEditor: {
     (value: React.SetStateAction<Editor | null>): void;
     (arg0: Editor): void;
 }, options: MailUiEditorProps['options'], hasLoadedEmbedScript: boolean) => {
-    console.log('__useEditorInitialization')
     useEffect(() => {
-        console.log('useEditorInitialization')
         if (!hasLoadedEmbedScript) return;
         editor?.destroy();
         setEditor(mailui.createEditor(options || {}));
