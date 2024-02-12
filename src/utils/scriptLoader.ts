@@ -1,4 +1,6 @@
-const defaultScriptUrl = "http://localhost:3000/embed.min.js"; //https://editor.unlayer.com/embed.js?2";
+import apiUrl from "./apiUrl";
+
+const defaultScriptUrl = apiUrl.API_BASE_URL;
 const callbacks: Function[] = [];
 let loaded: boolean = false;
 
