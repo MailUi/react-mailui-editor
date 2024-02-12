@@ -1,3 +1,3 @@
 export default {
-    API_BASE_URL: "http://localhost:3000/embed.min.js",
+    API_BASE_URL: "https://editor.mailui.co/embed.min.js",
 };
