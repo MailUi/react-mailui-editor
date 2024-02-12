@@ -1,0 +1,30 @@
+{
+  "name": "react-mailui-editor-example",
+  "version": "1.0.0",
+  "description": "",
+  "source": "/src/index.html",
+  "scripts": {
+    "start": "parcel --no-cache",
+    "build": "parcel build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.11.0",
+    "@types/react": "^18.2.55",
+    "@types/react-dom": "^18.2.19",
+    "parcel": "^2.11.0",
+    "process": "^0.11.10",
+    "typescript": "^5.3.3"
+  },
+  "alias": {
+    "react": "../node_modules/react",
+    "react-dom": "../node_modules/react-dom"
+  },
+  "dependencies": {
+    "mailui-editor-types": "^1.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^5.0.1"
+  }
+}
